@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Java / Maven
+backend/target/
+backend/logs/
+
+# Test reports
+reports/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+.vscode/
+.metadata/
